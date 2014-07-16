@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Project?</title>
+  </head>
+  <body>
+    <div class ="container">
+      <h1>To Do</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Lists</h2>
+          <div id="list">
+            <ul id="initial-list"></ul>
+          </div>
+          <h2>Create a list</h2>
+
+
+          <form id="toDo">
+            <div class="form-group">
+              <label for="listToDo">Name</label>
+              <input type="text" id="userList" class="form-control">
+              <button class="btn">Create</button>
+            </div>
+          </form>
+
+        </div>
+
+        <div class="col-md-8">
+          <div id="pop-up">
+            <h2 id="taskTitle"></h2>
+            <ul class="pop-up-list"></ul>
+            <h2>Add a Task</h2>
+            <p>Description</p>
+              <form id="tasks">
+                <div class="form-group">
+                  <label for="listToDo">Name</label>
+                  <input id="listToDo" class="form-control" type="text">
+                  <button id="add-task-button" class="btn">Add</button>
+                </div>
+              </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

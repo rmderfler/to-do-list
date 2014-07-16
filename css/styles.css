@@ -1,0 +1,9 @@
+#pop-up {
+  display: none;
+}
+#add-task-button {
+  color:red;
+}
+li :hover {
+color: blue;
+}
